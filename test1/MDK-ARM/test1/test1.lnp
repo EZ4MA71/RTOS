@@ -4,6 +4,7 @@
 "test1\gpio.o"
 "test1\stm32f4xx_it.o"
 "test1\stm32f4xx_hal_msp.o"
+"test1\freertos_demo.o"
 "test1\stm32f4xx_hal_tim.o"
 "test1\stm32f4xx_hal_tim_ex.o"
 "test1\stm32f4xx_hal_rcc.o"

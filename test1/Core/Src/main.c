@@ -22,9 +22,10 @@
 #include "main.h"
 #include "gpio.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "freeRTOS_demo.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -87,17 +88,18 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+	freertos_demo();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    /* USER CODE END WHILE */
+//  while (1)
+//  {
+//    /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
-  }
+//    /* USER CODE BEGIN 3 */
+
+//  }
   /* USER CODE END 3 */
 }
 
