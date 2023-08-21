@@ -10,6 +10,7 @@
                 "s:\\RTOS\\test1\\test1\\Drivers\\CMSIS\\Include",
                 "s:\\RTOS\\test1\\test1\\Middlewares\\FreeRTOS\\include",
                 "s:\\RTOS\\test1\\test1\\Middlewares\\FreeRTOS\\portable\\RVDS\\ARM_CM4F",
+                "s:\\RTOS\\test1\\test1\\BSP",
                 "D:\\STM32MDK5\\ARM\\ARMCC\\include",
                 "D:\\STM32MDK5\\ARM\\ARMCC\\include\\rw",
                 "s:\\RTOS\\test1\\test1\\MDK-ARM",

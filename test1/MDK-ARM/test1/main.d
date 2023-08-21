@@ -33,3 +33,5 @@ test1\main.o: ../Core/Inc/usart.h
 test1\main.o: D:\STM32MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 test1\main.o: ../Core/Inc/gpio.h
 test1\main.o: ../Core/Inc/freeRTOS_demo.h
+test1\main.o: ..\BSP\key.h
+test1\main.o: ../Drivers/CMSIS/Include/core_cm4.h

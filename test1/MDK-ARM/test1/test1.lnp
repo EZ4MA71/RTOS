@@ -32,6 +32,8 @@
 "test1\timers.o"
 "test1\port.o"
 "test1\heap_4.o"
+"test1\delay.o"
+"test1\key.o"
 --library_type=microlib --strict --scatter "test1\test1.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

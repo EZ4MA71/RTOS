@@ -41,3 +41,6 @@ test1\freertos_demo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.
 test1\freertos_demo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 test1\freertos_demo.o: ../Core/Inc/gpio.h
 test1\freertos_demo.o: D:\STM32MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+test1\freertos_demo.o: ..\BSP\key.h
+test1\freertos_demo.o: ../Drivers/CMSIS/Include/core_cm4.h
+test1\freertos_demo.o: ..\BSP\delay.h

@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "freeRTOS_demo.h"
+#include "key.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -89,6 +90,7 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
 	usart_init(115200);
+	key_init();
 	freertos_demo();
   /* USER CODE END 2 */
 
@@ -96,7 +98,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 //  while (1)
 //  {
-    /* USER CODE END WHILE */./
+    /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
 
