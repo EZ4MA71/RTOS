@@ -20,8 +20,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
 #include "gpio.h"
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -88,6 +88,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+	usart_init(115200);
 	freertos_demo();
   /* USER CODE END 2 */
 
@@ -95,9 +96,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 //  while (1)
 //  {
-//    /* USER CODE END WHILE */
+    /* USER CODE END WHILE */./
 
-//    /* USER CODE BEGIN 3 */
+    /* USER CODE BEGIN 3 */
 
 //  }
   /* USER CODE END 3 */

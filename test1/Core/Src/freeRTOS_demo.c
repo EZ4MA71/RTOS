@@ -3,6 +3,7 @@
 #include "task.h"
 #include "main.h"
 #include "gpio.h"
+#include "stdio.h"
 
 /******************************************************************************************************/
 /*FreeRTOS≈‰÷√*/
@@ -90,6 +91,7 @@ void task1( void * pvParameters )
 {
 	while(1)
 	{
+		printf("nihao");
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
 		vTaskDelay(500);
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);

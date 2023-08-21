@@ -28,5 +28,8 @@ test1\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 test1\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 test1\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 test1\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+test1\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+test1\main.o: ../Core/Inc/usart.h
+test1\main.o: D:\STM32MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 test1\main.o: ../Core/Inc/gpio.h
 test1\main.o: ../Core/Inc/freeRTOS_demo.h
